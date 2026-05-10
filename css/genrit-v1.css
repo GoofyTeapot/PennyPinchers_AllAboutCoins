@@ -1,7 +1,16 @@
 body {
     /* FONT SETTINGS */
-    font-family: 'Franklin Gothic Medium', Sans-serif;
-    font-color: #fff
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    -webkit-text-stroke: 2px black;
+    text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        2px  2px 0 black,
+        2px  2px 0 black;
 }
 
 body::before {
